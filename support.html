@@ -10,7 +10,7 @@
       --bg: #ffffff;
       --text: #16181a;
       --muted: #5c6166;
-      --accent: #5f8f00;
+      --accent: #4f7800;
       --line: #e3e5e8;
       --surface: #f4f5f6;
     }
@@ -32,7 +32,7 @@
       font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
     main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
-    nav { display: flex; gap: 16px; margin-bottom: 32px; font-size: 15px; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 16px; margin-bottom: 32px; font-size: 15px; }
     a { color: var(--accent); }
     h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
     h2 { font-size: 19px; margin: 32px 0 8px; }
@@ -47,7 +47,7 @@
 </head>
 <body>
 <main>
-  <nav><a href="#ru">Русский</a><a href="#en">English</a><a href="privacy.html">Конфиденциальность / Privacy</a></nav>
+  <nav><a href="#ru">Русский</a><a href="#en">English</a><a href="privacy.html#ru">Конфиденциальность</a><a href="privacy.html#en">Privacy</a></nav>
 
   <section id="ru" lang="ru">
     <h1>Поддержка Gymsta</h1>
@@ -56,10 +56,10 @@
     <p class="contact">Нашли ошибку или есть идея? Напишите на <a href="mailto:gymsta.workout@gmail.com">gymsta.workout@gmail.com</a> — укажите версию приложения из нижней строки экрана «Профиль» и модель телефона.</p>
 
     <h2>Где хранятся мои данные?</h2>
-    <p>Только на вашем телефоне. Регистрации и сервера нет, разработчик ваши данные не видит. Подробнее — в <a href="privacy.html">политике конфиденциальности</a>.</p>
+    <p>Локально на вашем телефоне. Регистрации и сервера нет, Gymsta ничего не передаёт разработчику. Копии данных появляются, только если вы сами выгрузите файл или включите резервное копирование телефона, — тогда они лежат в выбранном вами хранилище, например в iCloud. Подробнее — в <a href="privacy.html#ru">политике конфиденциальности</a>.</p>
 
     <h2>Как перенести данные на новый телефон?</h2>
-    <p>На старом телефоне откройте «Профиль → Перенос данных → Выгрузить данные в файл» и сохраните файл, например в «Файлы» или iCloud Drive. На новом телефоне установите Gymsta и выберите «Загрузить данные из файла». Загрузка заменяет все данные Gymsta на новом устройстве, поэтому делайте её на чистой установке или сначала выгрузите то, что там уже есть.</p>
+    <p>На старом телефоне откройте «Профиль → Перенос данных → Выгрузить» и сохраните файл, например в «Файлы» или iCloud Drive. На новом телефоне установите Gymsta, откройте «Профиль → Перенос данных → Загрузить» и выберите сохранённый файл. Загрузка заменяет все данные Gymsta на новом устройстве, поэтому делайте её на чистой установке или сначала выгрузите то, что там уже есть.</p>
 
     <h2>Почему стандартное упражнение нельзя удалить?</h2>
     <p>Упражнения из каталога можно только скрыть: смахните строку влево и нажмите «Скрыть». Вернуть скрытое можно из фильтра «Скрытые». Удалять насовсем можно свои упражнения.</p>
@@ -80,10 +80,10 @@
     <p class="contact">Found a bug or have an idea? Email <a href="mailto:gymsta.workout@gmail.com">gymsta.workout@gmail.com</a> — please include the app version from the bottom of the Profile screen and your phone model.</p>
 
     <h2>Where is my data stored?</h2>
-    <p>Only on your phone. There is no sign-up and no server, and the developer cannot see your data. See the <a href="privacy.html">privacy policy</a> for details.</p>
+    <p>Locally on your phone. There is no sign-up and no server, and Gymsta sends nothing to the developer. Copies exist only if you export a file or turn on phone backups — then they live in the storage you chose, such as iCloud. See the <a href="privacy.html#en">privacy policy</a> for details.</p>
 
     <h2>How do I move my data to a new phone?</h2>
-    <p>On the old phone, open Profile → Data transfer → Export data to a file and save the file, for example to Files or iCloud Drive. Install Gymsta on the new phone and choose Import data from a file. Importing replaces all Gymsta data on the new device, so do it on a fresh install or export what is already there first.</p>
+    <p>On the old phone, open Profile → Data transfer → Export and save the file, for example to Files or iCloud Drive. Install Gymsta on the new phone, open Profile → Data transfer → Import and choose the saved file. Importing replaces all Gymsta data on the new device, so do it on a fresh install or export what is already there first.</p>
 
     <h2>Why can’t I delete a standard exercise?</h2>
     <p>Catalog exercises can only be hidden: swipe the row left and tap Hide. Hidden exercises come back from the Hidden filter. Your own exercises can be deleted permanently.</p>
